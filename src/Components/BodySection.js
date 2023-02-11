@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './BodySection.css';
 
-function HeroSection() {
+function BodySection() {
   return (
-    <div className='hero-container'>
+    <div className='body-container'>
       <h1>#Placeholder#</h1>
       <p>#Placeholder#</p>
       <div>
@@ -15,4 +15,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default BodySection;
